@@ -1,3 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* general */
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+/* header */
 #masthead {
     position: fixed;
     width: 100%;
@@ -6,13 +21,6 @@
     color: white;
     background: blue;
     border-bottom: 2px solid black;
-}
-
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
 }
 
 nav {
@@ -34,6 +42,9 @@ nav a:first-child {
     border-left: 0 none;
 }
 
+
+
+ /* sidebar */
 .sidebar {
     float: right;
     width: 100%;
@@ -58,6 +69,10 @@ h3, .sidebar h2 {
     margin-right: 5px;
 }
 
+
+
+
+/* main */
 #main-container {
     padding-top: 130px;
 }
@@ -72,14 +87,11 @@ h3, .sidebar h2 {
     border: 1px solid #ddd;
 }
 
-.auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-}
 
+
+
+
+/* portfolio page */
 .work {
     position: relative;
     float: left;
@@ -88,6 +100,44 @@ h3, .sidebar h2 {
     overflow: auto;
 }
 
+.work:nth-child(even) {
+    margin-right: 40px;
+}
+
+.work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+    background: purple;
+    border-bottom: 0;
+}
+
+.auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+/* footer */
 footer {
     padding: 30px;
     clear: both;
