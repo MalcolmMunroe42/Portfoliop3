@@ -66,6 +66,20 @@ h3 {
     border-bottom: 2px solid black;
 }
 
+#nameArt {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: fuchsia;
+    text-align: center;
+    text-decoration: none;
+    background: gold;
+}
+
 nav {
     float: right;
     margin-top: 25px;
